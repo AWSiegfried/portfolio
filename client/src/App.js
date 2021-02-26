@@ -6,10 +6,14 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 
 //Routes
+import { About, Contact, Home, Projects } from "./pages/AllPages"
 
 function App() {
   return (
     <div className="main-div-container">
+      <Router>
+        
+      </Router>
     </div>
   );
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Projects() {
+function Navbar() {
     return (
         <div>
-            Projects
+            Navbar
         </div>
     )
 }
 
-export default Projects;
+export default Navbar
