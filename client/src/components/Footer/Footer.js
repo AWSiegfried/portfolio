@@ -1,30 +1,46 @@
 import React from "react";
-import "./Footer.css"
+import "./Footer.css";
 
 //Icons
 import { Fb, Gh, Ig, Li, Sp } from "../../assets/icons/allicons.js";
 
-
+import Icon from "../Icon/Icon";
 
 function Footer() {
-
   return (
     <div className="iconContainer">
-      <a href="https://www.youtube.com/c/jamesqquick" target="_blank" rel="noreferrer">
-        <img src={Gh} alt="Github"  height="33"/>
-      </a>
-      <a href="https://www.youtube.com/c/jamesqquick" target="_blank" rel="noreferrer">
-        <img src={Li} alt="LinkedIn"  height="31"/>
-      </a>
-      <a href="https://www.youtube.com/c/jamesqquick" target="_blank" rel="noreferrer" className="IG">
-        <img src={Ig} alt="Instagram"  height="38"/>
-      </a>
-      <a href="https://www.youtube.com/c/jamesqquick" target="_blank" rel="noreferrer">
-        <img src={Fb} alt="Facebook"  height="28"/>
-      </a>
-      <a href="https://www.youtube.com/c/jamesqquick" target="_blank" rel="noreferrer">
-        <img src={Sp} alt="Spotify"  height="30"/>
-      </a>
+      <Icon
+        href="https://www.youtube.com/c/jamesqquick"
+        src={Gh}
+        alt="Github"
+        height="33"
+      />
+      <Icon
+        href="https://www.youtube.com/c/jamesqquick"
+        src={Li}
+        alt="LinkedIn"
+        height="31"
+      />
+      <Icon
+        href="https://www.youtube.com/c/jamesqquick"
+        src={Ig}
+        alt="Instagram"
+        height="38"
+        ml="-3px"
+      />
+      <Icon
+        href="https://www.youtube.com/c/jamesqquick"
+        src={Fb}
+        alt="Facebook"
+        height="28"
+      />
+      <Icon
+        href="https://www.youtube.com/c/jamesqquick"
+        src={Sp}
+        alt="Spotify"
+        height="30"
+        ml="2px"
+      />
     </div>
   );
 }

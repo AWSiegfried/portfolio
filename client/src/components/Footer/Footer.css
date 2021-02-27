@@ -1,12 +1,21 @@
-.iconContainer {
-    display: flex;
-    align-self: center;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 80%;
-    margin-right: 2vw;
+@media(min-width: 770px){
+    .iconContainer{
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 70vw;
+        margin-right: 2vw;
+    } 
 }
 
-.IG {
-    margin-left: -5px;
+
+@media(max-width: 770px){
+    .iconContainer{
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: space-around;
+
+    } 
 }

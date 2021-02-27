@@ -32,15 +32,15 @@ function Header() {
 
   return ( 
     <Navbar expand="md" className="header-container d-flex " fixed="top" style={styles.HeaderContainer} variant="dark">
-      <Navbar.Brand href="/" style={styles.NavbarBrand} activeClassName="underline" >ALEXANDER WOLFGANG SIEGFRIED</Navbar.Brand>
+      <Navbar.Brand href="/" style={styles.NavbarBrand} activeclassname="underline" >ALEXANDER WOLFGANG SIEGFRIED</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" bg="transparent" style={{borderColor: "white", background: "black"}} >
 
       </Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav" >
         <Nav className="ml-auto mr-5 navController" style={styles.nav}>
-          <Nav.Link href="/about" style={styles.NavbarLink} activeClassName="underline">ABOUT</Nav.Link>
-          <Nav.Link href="/projects" style={styles.NavbarLink} activeClassName="underline">PROJECTS</Nav.Link>
-          <Nav.Link href="/contact" style={styles.NavbarLink} activeClassName="underline">CONTACT</Nav.Link>
+          <Nav.Link href="/about" style={styles.NavbarLink} activeclassname="underline">ABOUT</Nav.Link>
+          <Nav.Link href="/projects" style={styles.NavbarLink} activeclassname="underline">PROJECTS</Nav.Link>
+          <Nav.Link href="/contact" style={styles.NavbarLink} activeclassname="underline">CONTACT</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
