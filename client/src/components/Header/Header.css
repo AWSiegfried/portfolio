@@ -1,0 +1,46 @@
+/* 
+font-family: 'Montserrat', sans-serif; 
+*/
+
+/* .header-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.Navbar.Brand {
+  /* font-weight: bold;
+  font-size: 11px;
+  letter-spacing: 4.4px; */
+}
+
+/* .Navbar.Brand:hover {
+  background: red;
+}
+.underline {
+  border-bottom-width: 2px;
+} */
+
+.navbar-collapse {
+  /* background: red; */
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* .navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgb(255, 102, 203);
+} */
+
+.button.navbar-toggler.collapsed {
+  border-color: rgb(255, 102, 203) !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    border-color: rgb(255, 102, 203)  !important;
+}
