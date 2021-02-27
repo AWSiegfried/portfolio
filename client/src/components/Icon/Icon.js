@@ -5,7 +5,7 @@ function Icon({ href, src, alt, height, ml, mr }) {
   const styles = {
     marginLeft: ml,
     marginRight: mr,
-    transform: "scale(1.75)",
+    transform: "scale(2.25)",
     paddingBottom: "1vw"
   }
   return (
