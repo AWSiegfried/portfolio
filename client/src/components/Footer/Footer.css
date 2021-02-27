@@ -1,0 +1,12 @@
+.iconContainer {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 80%;
+    margin-right: 2vw;
+}
+
+.IG {
+    margin-left: -5px;
+}
