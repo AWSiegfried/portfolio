@@ -5,7 +5,7 @@ import "./Projects.css";
 import "./Projects.css"
 
 //Components
-import { Title } from "../../components/allComponents";
+import { Title, Project } from "../../components/allComponents";
 import {Projects as background } from "../../assets/backgrounds/allbackgrounds"
 
 function Projects() {
@@ -27,6 +27,7 @@ function Projects() {
   return (
     <div className="projects-container" style={styles.background}>
       <Title />
+      <Project/>
     </div>
   );
 }

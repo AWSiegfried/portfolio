@@ -1,0 +1,35 @@
+.project-container {
+    width: 80%;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.project-text {
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    width: 50%;
+    /* margin-left: 5%; */
+    /* margin-right: 5% */
+    overflow: scroll;
+}
+
+.link-box {
+    display: flex;
+    height: 30px;
+}
+
+
+.arrow {
+/* margin-bottom: 50px; */
+color: white;
+transform: scale(.9);
+max-height: 100%;
+position: relative;
+}
