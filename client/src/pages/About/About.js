@@ -4,6 +4,12 @@ import "./About.css"
 //Background
 import {About as about} from "../../assets/backgrounds/allbackgrounds"
 
+//Picture
+import alex from "../../assets/images/alex.png"
+
+//Components
+import { Title } from "../../components/allComponents"
+
 function About() {
 
     const styles= {
@@ -15,12 +21,14 @@ function About() {
             backgroundAttachment: "fixed",
             backgroundRepeat: "no-repeat",
             // marginBottom: "0"
-
         }
     }
     return (
         <div className="about-container" style={styles.background}>
-            About
+            <img src={alex} alt="Bio"/>
+            <Title/>
+            <div style={{color: "white"}}>Text</div>
+            
         </div>
     )
 }

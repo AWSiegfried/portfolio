@@ -1,10 +1,13 @@
 import React from 'react'
 import "./Contact.css"
 
+//Componenets
+import {Title} from "../../components/allComponents"
+
 function Contact() {
     return (
         <div className="contact-container">
-            Contact
+            <Title/>
         </div>
     )
 }

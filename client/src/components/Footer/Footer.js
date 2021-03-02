@@ -2,9 +2,9 @@ import React from "react";
 import "./Footer.css";
 
 //Icons
+import { Icon } from "../allComponents";
 import { Fb, Gh, Ig, Li, Sp } from "../../assets/icons/allicons.js";
 
-import Icon from "../Icon/Icon";
 
 function Footer() {
   return (
