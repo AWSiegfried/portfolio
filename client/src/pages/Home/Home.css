@@ -13,9 +13,8 @@
   object-fit: contain;
   justify-content: center;
   color: white;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   letter-spacing: 2.4px;
-
 }
 
 .home-text {
@@ -31,8 +30,8 @@
   content: "";
   display: block;
   margin: 0;
-  width: 12vh;
+  width: 6.5rem;
   padding-top: 2px;
-  border-bottom: 1px solid #9900C9;
+  border-bottom: 1px solid #9900c9;
 }
 
