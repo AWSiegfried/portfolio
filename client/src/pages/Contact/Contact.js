@@ -28,9 +28,6 @@ function Contact() {
     shadow: {
       textShadow: "5px 5px 25px black",
     },
-    yellow: {
-      color: "#F7B801",
-    },
   };
 
   const [form, setForm] = useState({
@@ -50,7 +47,7 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+        //   console.log(result.text);
           setForm({
             user_name: "",
             user_email: "",
@@ -58,7 +55,7 @@ function Contact() {
           });
         },
         (error) => {
-          console.log(error.text);
+        //   console.log(error.text);
         }
       );
   };
@@ -75,52 +72,46 @@ function Contact() {
             class="display-4 font-weight-bold text-white text-center"
             style={styles.shadow}
           >
-            Let's Work Together!
+            Get In Touch
           </h1>
           <article class="card-body">
             <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <input type="hidden" name="contact_number" />
-                <label for="name" class="text-white">
-                  <h3>Name</h3>
-                </label>
+
                 <input
                   type="text"
                   name="user_name"
                   value={form.user_name}
                   class="form-control"
-                  placeholder="Enter name"
+                  placeholder="Name"
                   onChange={(e) =>
                     setForm({ ...form, user_name: e.target.value })
                   }
                 />
               </div>
               <div className="form-group">
-                <label for="Email" className="text-white">
-                  <h3>Email address</h3>
-                </label>
+
                 <input
                   type="email"
                   name="user_email"
                   value={form.user_email}
                   className="form-control"
                   aria-describedby="emailHelp"
-                  placeholder="Enter email"
+                  placeholder="Email"
                   onChange={(e) =>
                     setForm({ ...form, user_email: e.target.value })
                   }
                 />
               </div>
               <div className="form-group">
-                <label for="message" className="text-white">
-                  <h3>Message</h3>
-                </label>
+
                 <textarea
                   name="message"
                   value={form.message}
                   className="form-control"
                   rows="3"
-                  placeholder="Enter message"
+                  placeholder="Message"
                   onChange={(e) =>
                     setForm({ ...form, message: e.target.value })
                   }
