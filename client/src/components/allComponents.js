@@ -3,11 +3,13 @@ import Header from "./Header/Header";
 import Icon from "./Icon/Icon"
 import Title from "./Title/Title"
 import Project from "./Project/Project"
+import ContactForm from "./ContactForm/ContactForm"
 
 export {
     Footer,
     Header,
     Icon,
     Title,
-    Project
+    Project,
+    ContactForm
 }
