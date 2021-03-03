@@ -6,7 +6,7 @@ import "./Projects.css";
 
 //Components
 import { Title, Project } from "../../components/allComponents";
-import { Projects as background } from "../../assets/backgrounds/allbackgrounds";
+import { Contact as background } from "../../assets/backgrounds/allbackgrounds";
 
 //Projects
 import projects from "./allProjects"
