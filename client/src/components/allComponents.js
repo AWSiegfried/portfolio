@@ -4,6 +4,7 @@ import Icon from "./Icon/Icon"
 import Title from "./Title/Title"
 import Project from "./Project/Project"
 import ContactForm from "./ContactForm/ContactForm"
+import Links from "./Links/Links"
 
 export {
     Footer,
@@ -11,5 +12,6 @@ export {
     Icon,
     Title,
     Project,
-    ContactForm
+    ContactForm,
+    Links
 }

@@ -6,7 +6,8 @@ function Icon({ href, src, alt, height, ml, mr }) {
     marginLeft: ml,
     marginRight: mr,
     transform: "scale(2.25)",
-    paddingBottom: "1vw"
+    paddingBottom: "5px",
+    paddingTop: "5px"
   }
   return (
     <a href={href} target="_blank" rel="noreferrer">

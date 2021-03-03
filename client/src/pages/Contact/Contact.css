@@ -1,5 +1,5 @@
 .contact-container {
-  background: blue center center/cover no-repeat;
+  background: black center center/cover no-repeat;
   height: 105%;
   width: 100%;
   margin-top: -5vh;
@@ -10,8 +10,9 @@
   flex-direction: row;
   align-items: center;
   object-fit: contain;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .contact-links {
+    margin-top: -175px;
 }

@@ -1,0 +1,38 @@
+.links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    object-fit: contain;
+    justify-content: space-around;
+}
+
+.three-links {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    /* align-items: baseline; */
+    justify-content: space-around;  
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    text-align: left;
+}
+
+.links-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 4px;
+    font-weight: 500;
+
+}
+
+
+.icon {
+    margin-left: 50px;
+    margin-right: 50px;
+    background: red;
+}

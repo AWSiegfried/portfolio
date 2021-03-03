@@ -8,7 +8,7 @@ import "./Contact.css";
 import { Projects as background } from "../../assets/backgrounds/allbackgrounds";
 
 //Componenets
-import { Title, ContactForm } from "../../components/allComponents";
+import { Title, ContactForm, Links } from "../../components/allComponents";
 
 function Contact() {
   const styles = {
@@ -23,17 +23,17 @@ function Contact() {
     },
     p: {
       marginBottom: ".5rem",
-    }
+    },
   };
-
 
   return (
     <div className="contact-container" style={styles.background}>
       <div className="contact-links">
-        <Title />
-        <ContactForm />
+        <Title/>
+        <br></br>
+        <Links />
       </div>
-
+      <ContactForm />
     </div>
   );
 }
