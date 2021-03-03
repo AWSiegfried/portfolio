@@ -7,14 +7,18 @@ import { Down, Fb, Gh, Ig, Li, Sp } from "../../assets/icons/allicons";
 //Componenets
 import { Icon } from "../allComponents";
 
+//Resume
+import resume from "../../assets/files/resume.pdf"
+
 function Links() {
   return (
     <div className="links-container">
       <div className="three-links">
         <a
-          href="https://google.com"
+          href={resume}
           target="_blank"
           rel="noreferrer"
+          download="siegfried_resume.pdf"
           className="links-link"
         >
           <Icon src={Down} alt="Résumé" height="35" className="icon" ml="30px" mr="35px"/>
@@ -41,7 +45,7 @@ function Links() {
       </div>
       <div className="three-links">
         <a
-          href="https://google.com"
+          href="https://www.instagram.com/awsiegfried/"
           target="_blank"
           rel="noreferrer"
           className="links-link"
@@ -50,7 +54,7 @@ function Links() {
           Instagram
         </a>
         <a
-          href="https://google.com"
+          href="https://www.facebook.com/alex.siegfried.52/"
           target="_blank"
           rel="noreferrer"
           className="links-link"
@@ -59,7 +63,7 @@ function Links() {
           Facebook
         </a>
         <a
-          href="https://google.com"
+          href="https://linktr.ee/deified/"
           target="_blank"
           rel="noreferrer"
           className="links-link"
