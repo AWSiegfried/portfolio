@@ -9,7 +9,7 @@ function Title() {
     <div className="title-text">
       { (location.pathname.includes("about")) ? "About Me"
         : location.pathname.includes("projects") ? "Projects"
-        : "Contact"}
+        : "Links"}
     </div>
   );
 }

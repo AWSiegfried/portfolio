@@ -7,7 +7,19 @@
     margin-bottom: -5vh;
     padding-bottom: 5vh;    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     object-fit: contain;
+    justify-content: center;
+}
+
+.contact-links {
+}
+
+.contact-card {
+    background: white;
+    width: 467px;
+    height: 415px;
+    border-radius: 20px;
+
 }
