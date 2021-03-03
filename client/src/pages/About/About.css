@@ -10,6 +10,7 @@
   flex-direction: row;
   align-items: center;
   object-fit: contain;
+  overflow: scroll;
 }
 
 @media (max-width: 770px) {
@@ -32,9 +33,11 @@
 }
 
 .text-container {
+  max-height: 60%;
   margin-left: 8%;
   margin-right: 8%;
-  margin-top: 5%;
+  margin-top: 10vh;
+  overflow: scroll;
 }
 
 @media (max-width: 770px) {
