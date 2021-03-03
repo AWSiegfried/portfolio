@@ -39,9 +39,9 @@ function About() {
           ligula vitae, semper dapibus risus. Nullam at ipsum sed erat malesuada
           lacinia ac ut quam. Ut vel laoreet est.
         </p>
-        <p><span>Languages: </span>HTML, Javascript, CSS</p>
-        <p><span>Technical skills: </span>React, Redux, MERN, MySQL, Material UI, etc.</p>
-        <p><span>Competencies: </span>
+        <p><span className="about-span">Languages: </span>HTML, Javascript, CSS</p>
+        <p><span className="about-span">Technical skills: </span>React, Redux, MERN, MySQL, Material UI, etc.</p>
+        <p><span className="about-span">Competencies: </span>
         Business development, brand building, 
 	advertising campaing/management
         </p>

@@ -1,35 +1,103 @@
 .project-container {
-    width: 80%;
-    display: flex;
-    align-self: center;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: space-around;
+  width: 80%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3%;
+  margin-top: 3%
+}
+
+@media (max-width: 770px) {
+    .project-container {
+        flex-direction: column;
+        justify-content: center;    
+        margin-bottom: 45px;
+        margin-top: 45px;
+    }
 }
 
 .project-text {
-    display: flex;
-    align-self: center;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: space-around;
-    color: white;
-    width: 50%;
-    /* margin-left: 5%; */
-    /* margin-right: 5% */
-    overflow: scroll;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
+
+@media (max-width: 770px) {
+    .project-text {
+        width: 90%;    
+        justify-content: center;
+    }
+}
+
+.project-name {
+  color: #3759c1;
+  letter-spacing: 8px;
+  transform: scale(1, 0.5);
+}
+
+.project-span {
+    color: #9900C9;
+    font-weight: bold;
+}
+
+.project-p {
+    font-weight: 350;
+    letter-spacing: .5px;
+}
+
+@media (max-width: 770px) {
+    .project-p {
+        font-weight: 200;
+        letter-spacing: .5px;
+    }
+}
+
 
 .link-box {
-    display: flex;
-    height: 30px;
+  display: flex;
+  height: 30px;
+  margin-bottom: 10px;
 }
 
+.link-text {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
 
 .arrow {
-/* margin-bottom: 50px; */
-color: white;
-transform: scale(.9);
-max-height: 100%;
-position: relative;
+  /* margin-bottom: 50px; */
+  color: white;
+  transform: scale(0.9);
+  max-height: 100%;
+  position: relative;
 }
+
+.card {
+  background: white;
+  width: 500px;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+@media (max-width: 770px) {
+    .card {
+    width: 100%;
+    transform: scale(.8);
+    margin: 0 auto;    
+    }
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: 105%;
+}
+

@@ -1,6 +1,8 @@
 .title-text {
     font-family: "Quicksand", sans-serif;
     color: white;
+    transform: scale(1, .7);
+    letter-spacing: 8px;
   }
 
 @media (min-width: 770px) {

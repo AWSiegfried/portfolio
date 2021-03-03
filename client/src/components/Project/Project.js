@@ -4,32 +4,43 @@ import "./Project.css";
 //Icons
 import { Ra } from "../../assets/icons/allicons";
 
-function Project() {
+//Picture
+// import { Emergence } from "../../assets/projects/allProjects";
+
+function Project({ name, live, github, img, desc, built }) {
   return (
     <div className="project-container">
       <div className="project-text">
-        <h1>EMERGENCE</h1>
-        <p>
-          Lorem impusm this is a porject about many things music related and
-          trying to save small bands from dying.
+        <h1 className="project-name">{name}</h1>
+        <p className="project-p">{desc}</p>
+        <p className="project-p">
+          <span className="project-span">Built With:</span>
+          <br></br>
+          {built}
         </p>
-        <p>Built With:</p>
-        <p>HTML, JS, CSS, Bootstrap, Spotify API, Youtube API, JSCharting</p>
         <div className="link-box">
-          <a href="https://www.google.com" target="_blank" rel="noreferrer">
+          <a href={live} target="_blank" rel="noreferrer" className="link-text">
             Live App
-            <img className="arrow" src={Ra} alt="live application"/>
+            <img className="arrow" src={Ra} alt="live application" />
           </a>
         </div>
         <div className="link-box">
-          <a href="https://www.google.com" target="_blank" rel="noreferrer">
+          <a
+            href={github}
+            target="_blank"
+            rel="noreferrer"
+            className="link-text"
+          >
             Github
-            <img className="arrow" src={Ra} alt="github repository"/>
+            <img className="arrow" src={Ra} alt="github repository" />
           </a>
         </div>
-
       </div>
-      <div style={{ color: "white" }}>Picture</div>
+      <div className="card">
+        <a href={live} target="_blank" rel="noreferrer">
+          <img className="card-image" src={img} alt={name}></img>
+        </a>
+      </div>
     </div>
   );
 }
