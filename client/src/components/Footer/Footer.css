@@ -6,6 +6,7 @@
         justify-content: space-around;
         margin-left: 70vw;
         margin-right: 2vw;
+        margin-bottom: -100px;
     } 
 }
 
@@ -16,6 +17,5 @@
         align-self: center;
         align-items: center;
         justify-content: space-around;
-        /* padding-bottom: 200px; */
     } 
 }

@@ -8,6 +8,7 @@ import "./Home.css";
 //Background
 import {Home as home} from "../../assets/backgrounds/allbackgrounds"
 
+
 function Home() {
 
     const styles= {
@@ -18,7 +19,6 @@ function Home() {
             backgroundPosition: "center",
             backgroundAttachment: "fixed",
             backgroundRepeat: "no-repeat",
-            // marginBottom: "0"
 
         },
         p: {
