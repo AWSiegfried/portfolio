@@ -28,10 +28,10 @@ function About() {
       <div className="text-container">
         <Title />
         <p><span className="about-span">Languages: </span>HTML, Javascript, CSS</p>
-        <p><span className="about-span">Technical skills: </span>React, Redux, MERN, MySQL, Material UI, etc.</p>
+        <p><span className="about-span">Technical skills: </span>React, React Native, Redux, MERN, MySQL, etc.</p>
         <p><span className="about-span">Competencies: </span>
-        Business development, brand building, 
-	advertising campaing/management
+        Product management, business development, brand building, 
+	advertising campaign management, CPC/PPC,conversion funnels, Shopify
         </p>
         <p>
         Hi there, I’m Alex and I’m a web developer.  Whether it’s designing a spaceship with legos as a kid or writing 100-piece choir arrangements now as a musician, I’ve always been a creator.  I love bringing new things into the world, especially if they’re aesthetically pretty. Web development couples my need to think critically with my love and desire to make new things.  
