@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     name: "HARMøny",
     live: "http://harmonythegame.herokuapp.com",
-    github: "http://harmonythegame.herokuapp.com",
+    github: "https://github.com/TChristensenDrumz/HARMony",
     img: Harmony,
     desc: "A web application combat-based video game with protected routes and full user-authentication. Written in HTML Canvas utilizing React components.",
     built: "HTML, CSS, Javascript, MERN, Canvas, JSONwebtoken, Robo 3T, Tiled, Bootstrap"

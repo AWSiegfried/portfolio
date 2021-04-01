@@ -48,6 +48,7 @@ function ContactForm() {
         <div style={{ color: "white" }} className="contact-card">
         <section className="form-group">
           <h1 className="contact-h1">Get In Touch</h1>
+          <h2 className="contact-h2">awsiegfried@gmail.com</h2>
           <article className="card-body">
             <form onSubmit={handleSubmit} className="contact-form">
               <div className="form-group">
